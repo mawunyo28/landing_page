@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
+  flex-direction: column;
+  /* align-items: center; */
+  align-items: stretch;
+  margin: 0;
+
+}
+
+img {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+
+  gap: 20px;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/*  header section */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding:10px 100px 10px 100px;
+  background-color: #1f2937;
+  gap: 40px;
+}
+
+.header .nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav-container .header-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header .nav-container .header-links li a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .web-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header .web-info .left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  max-width: 400px;
+
+  gap: 16px;
+  
+}
+
+.header .web-info .left-section .main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.header .web-info .left-section .sub-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .web-info .left-section .header-button {
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+  padding: 10px 30px 10px 30px;
+
+  font-size: 18px;
+  color: #e5e7eb;
+  align-self: flex-start;
+}
+
+.header .web-info .right-section {
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  height: fit-content;
+}
+
+.header .web-info .right-section .image {
+  transform: scale(.5);
+}

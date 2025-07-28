@@ -5,31 +5,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landing_page</title>
-    <link rel="styleshee" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="header">
-        <div class="header-text">Header Logo</div>
-        <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-        </ul>
+
+        <div class="nav-container">
+            <div class="header-text">Header Logo</div>
+            <ul class="header-links">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
+
 
         <div class="web-info">
             <div class="left-section">
-                <div id="main-text">This Website is awesome</div>
-                <div id="sub-text">
+                <div class="main-text">This Website is awesome</div>
+                <div class="sub-text">
                     This website has subtext that goes here under the main title. It's a
                     smaller font and the color is lower contrast
                 </div>
-                <button class="signup">signup</button>
+                <button class="header-button">Sign up</button>
             </div>
             <div class="right-section">
-                <img src="<!--images/computer-repair.svg-->" alt="This is a placeholder for the image" />
+                <img  class="image" src="images/computer-repair.png" alt="This is a placeholder for the image" />
             </div>
         </div>
+
+
     </div>
 
     <div class="info">
@@ -63,6 +69,17 @@
             </p>
             <p class="author">--Thor, the God of thunder</p>
         </div>
+    </div>
+
+    <div class="action-card">
+        <div class="action-main-text">
+            Call to action! It's time!
+        </div>
+        <div class="action-sub-text">
+            Sign up for our product by clicking that button right over there
+        </div>
+
+        <button class="action-button">Sign up</button>
     </div>
 
     <div class="footer">Copyright © The odin Project 2021</div>
