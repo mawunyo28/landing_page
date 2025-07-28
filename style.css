@@ -41,11 +41,12 @@ ul {
 .header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: stretch;
-  padding:10px 100px 10px 100px;
+  padding:10px 200px 10px 200px;
   background-color: #1f2937;
   gap: 40px;
+  flex: 1 1 auto;
 }
 
 .header .nav-container {
@@ -69,6 +70,8 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+
+  
 }
 
 .header .web-info .left-section {
@@ -77,9 +80,11 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
 
-  max-width: 400px;
+  max-width: 420px;
+  min-width: 400px;
 
   gap: 16px;
+  /* flex: 1; */
   
 }
 
@@ -106,13 +111,21 @@ ul {
   align-self: flex-start;
 }
 
+
 .header .web-info .right-section {
-  display: flex;
-  justify-content: flex-end;
-  width: fit-content;
-  height: fit-content;
+  width: 511px;
+  height: auto;
+  border-radius: 30px;
 }
 
-.header .web-info .right-section .image {
-  transform: scale(.5);
+
+/* info section */
+.info {
+  flex: 1 1 auto;
+}
+
+
+/* footer section */
+.footer {
+  flex: 1 1 auto;
 }
