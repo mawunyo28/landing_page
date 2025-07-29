@@ -214,4 +214,11 @@ ul {
 /* footer section */
 .footer {
   /* flex: 1 1 auto; */
+  background-color: #1F2937;
+  text-align: center;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
 }
