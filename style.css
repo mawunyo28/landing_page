@@ -8,6 +8,7 @@ body {
   /* align-items: center; */
   align-items: stretch;
   margin: 0;
+  padding: 0;
 
 }
 
@@ -46,7 +47,8 @@ ul {
   padding:10px 200px 10px 200px;
   background-color: #1f2937;
   gap: 40px;
-  flex: 1 1 auto;
+  /* margin: 0; */
+  /* flex: 1 1 auto; */
 }
 
 .header .nav-container {
@@ -115,17 +117,70 @@ ul {
 .header .web-info .right-section {
   width: 511px;
   height: auto;
-  border-radius: 30px;
+  /* aspect-ratio: 16/8; */
+  /* border-radius: 30px; */
 }
 
 
 /* info section */
 .info {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 200px;
+  padding-right: 200px;
+  gap: 10px;
   flex: 1 1 auto;
 }
 
+.info .info-text {
+  font-size: 36px;
+  text-align: center;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.info .cards {
+  align-self: center;
+  display: flex;
+  /* border: 2px solid red; */
+
+  gap: 10px;
+}
+
+.info .cards .card {
+  display:  flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  min-height: 200px;
+  /* border: 2px solid blue; */
+  /* justify-content: center; */
+  align-items: center;
+  padding: 5px;
+}
+
+.info .cards .card .card-image {
+  /* border: 4px solid peachpuff; */
+  border-radius: 20px;
+  
+}
+
+.info .cards .card .card-text {
+  text-align: center;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.testimony-section {
+  flex: 1 1 auto;
+}
+
+.action-card {
+  flex: 1 1 auto;
+}
 
 /* footer section */
 .footer {
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
 }
