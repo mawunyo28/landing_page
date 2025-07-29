@@ -173,7 +173,38 @@ ul {
 }
 
 .testimony-section {
-  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  background-color: #e5e7eb;
+  /* flex: 1 1 auto; */
+  padding: 0 200px 0 200px;
+
+  min-height: 400px;
+  max-width: 1904px;
+}
+
+.testimony-section .testimony {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  /* text-align: center; */
+  /* max-width: 500px; */
+  /* align-self: flex-end; */
+  /* flex: 1 1 auto; */
+
+}
+
+.testimony-section .author {
+  /* flex: 1 1 auto; */
+  /* align-self: flex-end; */
+  font-size: 18px;
+  text-align: end;
+  color: #1f2937;
+  font-weight: bold;
 }
 
 .action-card {
