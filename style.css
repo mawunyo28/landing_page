@@ -214,7 +214,7 @@ ul {
   /* flex-direction: column; */
   justify-content: center;
   margin: 0 200px 0 200px;
-  padding: 20px;
+  padding: 40px;
   color: #f9faf8;
   border-radius: 10px;
   flex: 1 1 auto;
@@ -224,6 +224,7 @@ ul {
   display: flex;
   flex-direction: column;
   margin-right: auto;
+  gap: 5px;
 }
 
 .action-card .action-text .action-main-text {
