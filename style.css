@@ -9,6 +9,7 @@ body {
   align-items: stretch;
   margin: 0;
   padding: 0;
+  gap: 20px;
 
 }
 
@@ -208,8 +209,44 @@ ul {
 }
 
 .action-card {
+  background-color: #3882f6;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: 0 200px 0 200px;
+  padding: 20px;
+  color: #f9faf8;
+  border-radius: 10px;
   flex: 1 1 auto;
 }
+
+.action-card .action-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.action-card .action-text .action-main-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.action-card .action-text .action-sub-text {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.action-card .action-button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  text-align: center;
+  font-size: 18px;
+  color: #f9faf8;
+  width: 100px;
+}
+
+
 
 /* footer section */
 .footer {
@@ -221,4 +258,7 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
   position: sticky;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
